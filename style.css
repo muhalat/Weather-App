@@ -1,0 +1,106 @@
+/**
+ * general styles
+ *
+ * @format
+ */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Indie Flower", cursive;
+  font-size: 1rem;
+}
+body {
+  background: url("dotss.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+/* header styles */
+.weatherApp {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* main container styles */
+.container-fluid {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* input section styles */
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+#cityinput {
+  width: 100%;
+  max-width: 30rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: none;
+  padding: 0.5rem;
+}
+
+#add {
+  width: 10rem;
+  height: 3rem;
+  background-color: #00b09b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+#add:hover {
+  background-color: #96c93d;
+}
+
+/* display section styles */
+.display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.displayImage img {
+  width: 200px;
+  height: 200px;
+}
+.wrapper {
+  width: 100%;
+  max-width: 30rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+#cityoutput {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}
+
+#temp,
+#wind {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
